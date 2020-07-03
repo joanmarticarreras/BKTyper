@@ -1,6 +1,12 @@
 <p align="center"><img src="media/logo.svg" alt="BKTyper - v.0.1" width="450"></p>
 
-BKTyper is a human polyoma BK (BKPyV) typing tool. It can automatically classify transcriptional blocks from the Non-Coding Control Region (NCCR) and the Viral Protein 1 (VP1). It can take a nucleotide sequence in fasta format containing the complete BKPyV genome or subgenomic region containing the VP1 gene or the NCCR region.
+BKTyper is a human polyoma BK (BKPyV) typing tool. It can automatically classify transcriptional blocks from the Non-Coding Control Region (NCCR) and the Viral Protein 1 (VP1). It can take a nucleotide sequence in fasta format containing the complete BKPyV genome or subgenomic region containing the VP1 gene or the NCCR region. 
+
+**BKTyper can be used online wihtout the need of further installation at [https://bktyper.zidu.be/](https://bktyper.zidu.be/).**
+
+Please if you want to use either the online free tool or decide to use the local installation, please cite our work. This is an academical on-going work and it is meant to be mantained long-term. Citation will help ensuring that the server costs are mantained.
+
+**Citation: `Martí-Carreras, J.; Maes, P. BKTyper—Web Application for VP1 and NCCR Polyoma BK Typing. Proceedings 2020, 50, 25 (https://www.mdpi.com/2504-3900/50/1/25)`.** (Please cite the conference abstract until this work is published).
 
 ## Requirments
 
