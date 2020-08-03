@@ -6,7 +6,7 @@ BKTyper is a human polyoma BK (BKPyV) typing tool. It can automatically classify
 
 Please if you want to use either the online free tool or decide to use the local installation, please cite our work. This is an academical on-going work and it is meant to be mantained long-term. Citation will help ensuring that the server costs are mantained.
 
-**Citation: `Martí-Carreras, J.; Maes, P. BKTyper—Web Application for VP1 and NCCR Polyoma BK Typing. Proceedings 2020, 50, 25 (https://www.mdpi.com/2504-3900/50/1/25)`.** (Please cite the conference abstract until this work is published).
+**Citation: `Martí-Carreras, J.; Mineeva-Sangwo, O.; Topalis, D.; Snoeck, R.; Andrei, G.; Maes, P. BKTyper: Free Online Tool for Polyoma BK Virus VP1 and NCCR Typing. Viruses 2020, 12, 837`.**
 
 ## Requirments
 
