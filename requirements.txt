@@ -4,4 +4,4 @@ numpy==1.13.3
 bio==0.1.0
 matplotlib==3.2.2
 reportlab==3.4.0
-PyPDF2==1.26.0
+PyPDF2==1.27.5
