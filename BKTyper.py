@@ -27,7 +27,6 @@ matplotlib.use('Agg')
 from matplotlib import pyplot
 import pylab
 import subprocess
-from Bio._py3k import basestring
 from Bio.Application import _Option, _Switch, AbstractCommandline
 from Bio.Phylo.Applications import PhymlCommandline
 from Bio.SeqRecord import SeqRecord
@@ -96,7 +95,7 @@ def write_visuals(seq_name,df,seq_length,results_pdf):
 	for index, row in df.iterrows():
 		(motif_name,start_motif,end_motif) = (row["Motif"],row["Start"],row["End"])
 		cols = [motif_name,start_motif,end_motif]
-		if index is 0:
+		if index == 0:
 			block = SeqFeature(FeatureLocation(int(cols[1]), int(cols[2]), strand=-1), type="blocks", id=motif_name)
 			NCCR.add_feature(block,color=colors.HexColor("#8DD35F"), name=motif_name, label=True, label_size=8, label_position="middle", label_angle=180)
 		else:
@@ -176,8 +175,8 @@ def VP1_tree(seq_name,seq,db):
 	VP1_alignment = trim_alignment(mafft_align)
 	BKTGR_alignment = VP1_alignment[:,425:512]
 	AlignIO.write(BKTGR_alignment, "BKTGR_alignment.aln", "clustal")
-	os.system("~/bin/iqtree-1.6.12-Linux/bin/iqtree -s BKTGR_alignment.aln -bb 10000 -redo -m TEST -pre model_testing")
-	tree = Phylo.read("iqtree_GTR_fast.nwk", "newick")
+	os.system("iqtree -s BKTGR_alignment.aln -bb 10000 -redo -m TEST -pre model_testing")
+	tree = Phylo.read("model_testing.contree", "newick")
 	for node in tree.get_nonterminals():
 		node.name = None
 	tree.ladderize()

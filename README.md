@@ -18,15 +18,16 @@ BKTyper depends on 4 different external programs that should be installed in you
 - [Mafft](https://mafft.cbrc.jp/alignment/software/)
 - [EMBOSS toolkit](ftp://emboss.open-bio.org/pub/EMBOSS/)
 - [IQTree](http://www.iqtree.org/)
+- [Conda](https://anaconda.org/)
 
 ## Installation
 
-BKTyper is written in Python3 and depends on several Python libraries. Clone the repository and install the requiered Python libraries:
+BKTyper is written in Python3 and depends on several Python libraries. Clone the repository and install the requiered Python libraries through CONDA for ease of installation:
 
 ```
 git clone https://github.com/joanmarticarreras/BKTyper.git
 cd BKTyper/
-pip3 install -r requirements.txt
+conda install -y --file requirements.txt
 ```
 
 ## Run
