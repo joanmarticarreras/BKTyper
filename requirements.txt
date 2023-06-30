@@ -5,7 +5,7 @@ numpy==1.23.0
 biopython==1.81
 matplotlib==3.7.1
 reportlab==3.6.12
-PyPDF2==1.26.0
+PyPDF2==1.27.9
 emboss==6.6.0
 blast==2.14.0
 mafft==7.520
