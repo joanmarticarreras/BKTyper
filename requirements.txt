@@ -4,7 +4,7 @@ pandas==1.5.3
 numpy==1.23.0
 biopython==1.81
 matplotlib==3.7.1
-reportlab==3.6.12
+reportlab==3.6.13
 PyPDF2==1.26.0
 emboss==6.6.0
 blast==2.14.0
